@@ -91,11 +91,11 @@ import sourceData from '@/data.json'
 console.log(sourceData)
 
 export default {
-  name: "HelloWorld",
+  name: 'HelloWorld',
   props: {
     msg: String
   },
-  data() {
+  data () {
     return {
       hello: 'Blah blah'
     }
